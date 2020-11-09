@@ -46,7 +46,7 @@ header p {
 
 #social-media {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 #social-media i {
