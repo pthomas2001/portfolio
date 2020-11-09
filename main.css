@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box
+}
+
+
+/* == HEADER == */
+header {
+  background: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/44362678_557647024692894_2495857808407265280_o.jpg?_nc_cat=102&_nc_sid=dd9801&_nc_ohc=2Qa8pklM3IsAX_CV8sY&_nc_ht=scontent-vie1-1.xx&oh=4838753c19c0fb469fb489e675e6f49d&oe=5FB096F3") no-repeat fixed center;
+  margin: 0;
+  height: 100vh;
+}
+
+
+#header-box {
+  position: relative;
+  top: 10vh;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+header img {
+  height: 15rem !important;
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+  margin: auto;
+	margin-bottom: 1rem
+}
+
+header img:hover {
+  transform: scale(1.2);
+}
+
+header h1, h2, header h3 {
+	font-family: "Times New Roman", serif;
+	text-align: center;
+	margin: .7rem
+}
+
+header p {
+	font-size: large;
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin: 3rem 0
+}
+
+#social-media {
+	display: flex;
+	justify-content: space-between;
+}
+
+#social-media i {
+	font-size: 4rem;
+}
+
