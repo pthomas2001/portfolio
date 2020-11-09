@@ -13,9 +13,9 @@ header {
 
 #header-box {
   position: relative;
-  top: 10vh;
-  height: 80vh;
+  height: 100vh;
   background: rgba(255, 255, 255, 0.8);
+	padding-top: 3rem
 }
 
 header img {
